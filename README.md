@@ -11,5 +11,5 @@ Implementations:
   used on http://jgiesen.de/astro/astroJS/seasons/
   Our current https://github.com/persian-calendar/equinox is based on it
 * https://stellafane.org/misc/equinox.html this apparently matches better with
-  Iran provided ones?
+  Iran provided ones? ([Dart](https://github.com/shawnlauzon/meeus) & [Go](https://github.com/soniakeys/meeus) implementation from the same [book](https://www.amazon.com/Astronomical-Algorithms-Jean-Meeus/dp/0943396611))
 * (feel free to add more)
