@@ -89,7 +89,8 @@ function fromTDTtoUTC( tobj ) {
 		/*1890*/ -6.0, -6.3, -6.5, -6.2, -4.7,  -2.8, -0.1,  2.6,  5.3,  7.7,  10.4, 13.3, 16.0, 18.2, 20.2,
 		/*1920*/ 21.1, 22.4, 23.5, 23.8, 24.3,  24.0, 23.9, 23.9, 23.7, 24.0,  24.3, 25.3, 26.2, 27.3, 28.2,
 		/*1950*/ 29.1, 30.0, 30.7, 31.4, 32.2,  33.1, 34.0, 35.0, 36.5, 38.3,  40.2, 42.2, 44.5, 46.5, 48.5,
-		/*1980*/ 50.5, 52.5, 53.8, 54.9, 55.8,  56.9, 58.3, 60.0, 61.6, 63.0,  63.8, 64.3); /*2002 last entry*/
+		/*1980*/ 50.5, 52.5, 53.8, 54.9, 55.8,  56.9, 58.3, 60.0, 61.6, 63.0,  63.8, 64.3, 64.6, 64.8, 65.5, 66.1);
+		         /*2010 last entry, improved via https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/56041/versions/25/previews/Moon%20Position/ETminUT.m/index.html */
 		// Values for Delta T for 2000 thru 2002 from NASA
 	var deltaT = 0; // deltaT = TDT - UTC (in Seconds)
 	var Year = tobj.getUTCFullYear();
