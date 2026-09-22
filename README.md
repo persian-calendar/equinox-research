@@ -1,5 +1,3 @@
-# Iran ground truth
-
 [iran-ground-truth.json](iran-ground-truth.json) holds the spring-equinox
 (Nowruz / Tahvil-e Sal) moments officially announced by the University of Tehran
 (`calendar.ut.ac.ir`), given in Iran Standard Time (UTC+3:30) and rounded to
